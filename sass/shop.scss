@@ -1,0 +1,266 @@
+#shopCart{
+  margin-top: 10px;
+  h2{
+    >span{
+      line-height: 36px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    >i{
+      line-height: 36px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    >div{
+      float: right;
+      height: 36px;
+      width: 498px;
+      line-height: 36px;
+      img{
+        float: left; 
+        width: 12px;
+        height: 12px;
+        margin-top: 12px;
+        margin-right: 4px;
+      }
+      >span{
+
+      }
+      >i{
+        color: #e71436;
+      }
+      a{
+        color: #51b8f1;
+      }
+      >select{
+        border: solid 1px #cccccc;
+        font-size: 12px;
+        height: 20px;
+        line-height: 18px;
+      }
+    }
+  }
+  .shopTop{
+    border: solid 1px #eaeaea;
+    height: 36px;
+    margin-bottom: 13px;
+    input{
+      float: left;
+      margin-left: 22px;
+      margin-right: 12px;
+      margin-top: 11px;
+    }
+    i{
+      margin-right: 72px;
+      line-height: 34px;
+    }
+    span{
+      color: #999999;
+      line-height: 34px;
+
+    }
+    .message{
+      margin-right: 374px;
+    }
+    .price{
+      margin-right: 106px;
+    }
+    .numbers{
+      margin-right: 124px;
+    }
+    .money{
+      margin-right: 80px;
+    }
+  }
+  
+  .carts{
+    height: 200px;
+    margin-bottom: 14px;
+    h3{
+      height: 38px;
+      line-height: 38px;
+      font-size: 14px;
+      font-weight: 600;
+      >input{
+        float: left;
+        margin-left: 22px;
+        margin-right: 12px;
+        margin-top: 13px;
+      }
+    }
+    .cartsTop{
+      height: 122px; 
+      border: 1px solid #eaeaea;
+      background: #fffbf0;
+      padding-top: 20px;
+      >input{
+        float: left;
+        margin-left: 22px;
+        margin-right: 12px;
+        margin-top: 34px;
+      }
+      >img{
+        float: left;
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+      }
+      .recommend{
+        width: 214px;
+        height: 100px;
+        float: left;
+        overflow: hidden;
+        margin-right: 36px;
+        p{
+          line-height: 24px;
+          width: 250px;
+          margin-bottom: 4px;
+        }
+        img{
+          margin-right: 2px;
+        }
+        strong{
+          color: #666666;
+        }
+      }
+      >span{
+        float: left;
+        color: #999999;
+        margin-right: 80px;
+      }
+      >strong{
+        margin-right: 100px;
+        float: left;
+        line-height: 20px; 
+        font-weight: 600;
+      }
+      .num{
+        height: 22px;
+        width: 88px;
+        border: 1px solid #cccccc;
+        float: left;
+        margin-right: 106px;
+        background: #ffffff;
+        i{
+          float: left;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          cursor: pointer;
+        }
+        span{
+          width: 44px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          float: left;
+          border-left: 1px solid #cccccc;
+          border-right: 1px solid #cccccc;
+        }
+      }
+      .del{
+        float: left;
+        line-height: 20px;
+      }
+    }
+    .cartBottom{
+      height: 40px;
+      border: 1px solid #eaeaea;
+      border-top:0;
+      >div{
+        float: right;
+        width: 362px;
+        line-height: 40px;
+        span{
+          margin-right: 24px;
+        }
+        strong{
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+  .account{
+    height: 62px;
+    border: solid 1px #eaeaea;
+    background: #f8f8f8;
+    >input{
+      float: left;
+      margin-left: 22px;
+      margin-right: 12px;
+      margin-top: 25px; 
+    }
+    >i{
+      margin-right: 20px;
+      line-height: 62px;
+    }
+    >span{
+      line-height: 62px;
+      cursor: pointer;
+    }
+    .accountBtn{
+      width: 518px;
+      height: 60px;
+      float: right;
+      .btnLeft{
+        float: left;
+        width: 366px;
+        height: 60px;
+        padding-top: 6px;
+        p{
+          float: left;
+          color: #999999;
+          >span{
+            margin-right: 44px;
+          }
+          >strong{
+            margin-right: 30px;
+          }
+        }
+        .btnLeftTop{
+          line-height: 30px;
+          float: right;
+          >i{
+            font-size: 16px;
+            color: #e31436;
+            font-weight: 600;
+          }
+          >span{
+            font-size: 16px;
+            color: #e31436;
+            font-weight: 600;
+          }
+          >strong{
+            margin-right: 24px;
+          }
+        }
+      }
+      .btnRight{
+        float: right;
+        width: 120px;
+        height: 60px;
+        background: #e31436;
+        color: #ffffff;
+        line-height: 60px;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

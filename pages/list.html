@@ -4,9 +4,504 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
 <link rel="stylesheet" href="./css/list.css">
 </head>
 <body>
-  <h1>商品列表页</h1>
+  <!-- 网页最顶部 -->
+  <div id="top">
+    <div class="topkl content">
+      <div class="topkl_left">
+        <ul>
+          <li >考拉欢迎你!</li>
+          <li><a href="#">登录</a></li>
+          <li><a href="#">免费注册</a></li>
+          <li>
+            <a href="#">手机考拉</a>
+            <div>
+              <strong></strong>
+              <img src="https://img.alicdn.com/tfs/TB1pUSJua61gK0jSZFlXXXDKFXa-256-256.png" alt="">
+              <p>新人下载app</p> 
+              <p>领取10元满减红包</p> 
+            </div>  
+          </li>
+        </ul>
+      </div>
+      <div class="topkl_right">
+        <ul>
+          <li><a href="#">每日签到</a></li>
+          <li><a href="#">我的订单</a></li>
+          <li class="topli"><a href="#">个人中心</a><span></span>
+            <div>
+              <p>我的优惠券</p>
+              <p>我的红包</p>
+              <p class="p_btm">我的考拉豆</p>
+              <p>帐号管理</p>
+              <p>我的实名认证</p>
+              <p class="p_btm">我的发票抬头</p>
+              <p>我收藏的商品</p>
+              <p class="p_btm">我关注的品牌</p>
+              <p>售后管理</p>
+            </div>
+          </li>
+          <li class="topli">
+            <a href="#">客户服务</a><span></span>
+            <div>
+              <p>联系客服</p>
+              <p>帮助中心</p>
+              <p>知识产权保护</p>
+              <p>规则中心</p>
+            </div>
+          </li>
+          <li class="topli">
+            <a href="#">充值中心</a><span></span>
+            <div>
+              <p>话费充值</p>
+              <p>游戏充值</p>
+              <p>AppStore充值卡</p>
+            </div>
+          </li>
+          <li class="topli">
+            <a href="#">消费者权益</a><span></span>
+            <div>
+              <p>消费者告知书</p>
+            </div>
+          </li>
+          <li class="topli">
+            <a href="#">更多</a><span></span>
+            <div class="top_last_li">
+              <p class="p_btm">收藏本站</p>
+              <p>新浪微博</p>
+              <p>微信公众号</p>
+              <p>招商合作</p>
+            </div>
+          </li>
+          <li><a href="#">视频内容</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<!-- 列表导航 -->
+  <div id="sidebar" >
+    <div class="content">
+      <h2><span>全部结果</span><strong>></strong><input type="text" placeholder="洗发护发"><strong>商品共<i>5000</i>个</strong></h2>
+      <div class="column">
+        <div class="column_inner clearfix">
+          <div class="menu bb">
+            品牌
+          </div>
+          <div class="submenu ">
+            <a href="#">资生堂</a>
+            <a href="#">潘婷</a>
+            <a href="#">施华蔻</a>
+            <a href="#">吕</a>
+            <a href="#">阿道夫</a>
+            <a href="#">爱敬</a>
+            <a href="#">袋鼠</a>
+            <a href="#">滋源</a>
+            <a href="#">沙宣</a>
+            <a href="#">花王</a>
+            <a href="#">黛丝恩</a>
+            <a href="#">Amino Mason</a>
+          </div>
+          <span>+多选</span>
+          <i>展开</i>
+        </div>
+        <div class="column_inner clearfix">
+          <div class="menu">
+            国家/地区
+          </div>
+          <div class="submenu ">
+            <a href="#">中国香港</a>
+            <a href="#">新加坡</a>
+            <a href="#">瑞典</a>
+            <a href="#">韩国</a>
+            <a href="#">瑞士</a>
+            <a href="#">印度尼西亚</a>
+          </div>
+          <span>+多选</span>
+          <i>展开</i>
+        </div>
+        <div class="column_inner clearfix">
+          <div class="menu">
+            分类
+          </div>
+          <div class="submenu ">
+            <a href="#">洗护发套装</a>
+            <a href="#">护发素</a>
+            <a href="#">洗发水</a>
+            <a href="#">发膜</a>
+          </div>
+          <span>+多选</span>
+          <i>展开</i>
+        </div>
+        <div class="column_inner clearfix">
+          <div class="menu">
+            功能
+          </div>
+          <ul>
+            <li><a href="#">垂坠直发</a></li>
+            <li><a href="#">强韧防断发</a></li>
+            <li><a href="#">弹力固卷</a></li>
+            <li><a href="#">头皮护理</a></li>
+            <li><a href="#">丰盈蓬松</a></li>
+            <li><a href="#">柔顺丝滑</a></li>
+            <li><a href="#">损伤修复</a></li>
+            <li><a href="#">锁色护色</a></li>
+          </ul>
+          <span>+多选</span>
+          <i>展开</i>
+        </div>
+        <div class="column_inner clearfix">
+          <div class="menu">
+            适用发质
+          </div>
+          <ul>
+            <li><a href="#">所有发质</a></li>
+            <li><a href="#">中性发质</a></li>
+            <li><a href="#">受损发质</a></li>
+            <li><a href="#">干性发质</a></li>
+            <li><a href="#">敏感发质</a></li>
+            <li><a href="#">沙发发质</a></li>
+            <li><a href="#">混合型发质</a></li>
+            <li><a href="#">油性发质</a></li>
+          </ul>
+          <span>+多选</span>
+        </div>
+        <div class="column_inner clearfix">
+          <div class="menu">
+            适用发质
+          </div>
+          <ul>
+            <li><a href="#">所有发质</a></li>
+            <li><a href="#">中性发质</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="mainTop"><span class="span1">综合</span><span class="span2">销量</span><span class="span3">新品</span><span class="span4">价格</span></p>
+      <div id="main">
+        <div class="mainBig clearfix" >
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+              
+            </div>
+            
+            
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+          <div class="main_inner">
+            <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_262,h_262/quality,q_90/ignore-error,1" alt="" class="imgBig">
+            <div class="imgSamll">
+              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_30,h_30/quality,q_90/ignore-error,1" alt="" >
+            </div>
+            <h3>￥78</h3>
+            <div class="vip">
+              <div class="vipLeft">黑卡价</div>
+              <div class="vipRight">￥69</div>
+              <div class="vipContent"></div>
+            </div>
+            <a href="#">
+              【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</a>
+            <div class="removes">
+              <div class="removesInner">
+                <i>拼团¥65</i><i>特价</i>
+              </div>
+              <div class="serve">
+                <span></span><strong>12212</strong><span class="field">日本</span>
+              </div>
+              <p>考拉海购自营</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 网页页足  -->
+  <div id="footer">
+    <div class="footer_top">
+      <div class="content">
+        <div class="footer_top_inner">
+          <div class="footer_top_inner_left">
+            正
+          </div>
+          <div class="footer_top_inner_right">
+            <p>正品承诺</p>
+            <span>正品保障 假一赔十</span>
+          </div>
+        </div>
+        <div class="footer_top_inner">
+          <div class="footer_top_inner_left">
+            低
+          </div>
+          <div class="footer_top_inner_right">
+            <p>低价保障</p>
+            <span>缩减中间环节 确保低价</span>
+          </div>
+        </div>
+        <div class="footer_top_inner">
+          <div class="footer_top_inner_left">
+            退
+          </div>
+          <div class="footer_top_inner_right">
+            <p>30天无忧退货</p>
+            <span>国内退货 售后无忧</span>
+          </div>
+        </div>
+        <div class="footer_top_inner">
+          <div class="footer_top_inner_left">
+            邮
+          </div>
+          <div class="footer_top_inner_right">
+            <p>满88包邮</p>
+            <span>部分特殊商品除外</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_content">
+      <div class="content clearfix">
+        <div class="footer_content_right">
+          <div class="kllogin">
+            <div class="blank"></div>
+          </div>
+          <div>
+            <i>关注我们</i>
+          </div>
+        </div>
+        <ul class="clearfix">
+          <li>
+            <span>考拉保障</span>
+            <p><a href="https://pages.kaola.com/pages/activity/0b4317da69e04c6ea6babc88b1917876.shtml?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&zn=footer">假一赔十</a></p>
+            <p><a href="https://jubao.alibaba.com/?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&site=KAOLA&zn=footer">廉政举报</a></p>
+          </li>
+          <li>
+            <span>新手指南</span>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_buy">购物流程</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_epay">支付方式</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_tariff">通关税费</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_faq">常见问题</a></p>
+          </li>
+          <li>
+            <span>售后服务</span>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_returnpolicy">售后政策</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_returnprocess">退货流程</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.725cb0d8NGmKOv&key=footer_compensationfirst">特色服务</a></p>
+            <p><a href="https://account.kaola.com/login.html?target=https%3A%2F%2Fwww.kaola.com%2F%3Fccslogin%3D1">联系客服</a></p>
+          </li>
+          <li>
+            <span>物流配送</span>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_deliverymode">配送方式</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_deliveryservice">配送服务</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_freight">运费标准</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_logistracking">物流跟踪</a></p>
+          </li>
+          <li>
+            <span>商家服务</span>
+            <p><a href="https://m-mall.kaola.com/merchants?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&zn=footer">招商合作</a></p>
+            <p><a href="https://pub.kaola.com/">销售联盟</a></p>
+            <p><a href="https://school.kaola.com/?spm=a2v0d.13659821.0.0.6620b0d8MnPELd">商家成长</a></p>
+          </li>
+          <li>
+            <span>关于我们</span>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_contactus">联系我们</a></p>
+            <p><a href="https://you.kaola.com/footer/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=footer_ceomailbox">CEO邮箱</a></p>
+            <p><a href="https://activity.kaola.com/activity/offlineStore/index.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd">线下店</a></p>
+          </li>
+        </ul>
+        <dl>
+          <dt>
+            <img src="https://kaola-haitao.oss.kaolacdn.com/a22c58ba-e800-4286-9a6e-0d4d159a2920.png" alt="">
+          </dt>
+          <dd>扫描下载手机版</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="content">
+        <p>
+          <span>增值电信业务经营许可证：浙B2-20160288</span>
+          <span>（浙）网械平台备字[2018]第00007号</span>
+          <span>里巴巴版权所有©2003-2020</span>
+          <a href="https://you.kaola.com/common/page.html?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&key=Privacy_policy">隐私政策</a>-<a href="http://localhost:3000">考拉海购</a>
+        </p>
+        <p>
+          <span>网络文化经营许可证：浙网文（2020）4340-180号</span>
+          <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010006</span>
+        </p>
+        <p>
+          <a class="m_r" href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&recordcode=33010802002216&no_protofix"><img src="https://kaola-haitao.oss.kaolacdn.com/f28aa8ee818a42bf832341f605eccefb.png" alt=""></a>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&recordcode=33010802002216&no_protofix">浙公网安备 33010802002216号</a>
+          <a href="https://kaola-haitao.oss.kaolacdn.com/d37ac4eb-016f-485b-9577-04ae7e0f4bbd.jpg">互联网药品信息服务资格证书编号（浙）-2017-0027</a>
+          <a href="http://beian.miit.gov.cn/?spm=a2v0d.13659821.0.0.6620b0d8MnPELd">浙ICP备16011229号 </a>
+          <a href="https://pages.kaola.com/pages/activity/Businessentity.shtml?spm=a2v0d.13659821.0.0.6620b0d8MnPELd">自营经营者信息</a>
+        </p>
+        <p>
+          <a class="m_r" href="https://ss.knet.cn/verifyseal.dll?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&sn=e15040881010058239iy2f000000&ct=df&a=1&pa=20160215">
+          <img class="knet" src="https://kaola-haitao.oss.kaolacdn.com/d720d83b55a04b6f932ea845c673c5bf.png" alt=""></a>
+          <a href="http://idinfo.zjamr.zj.gov.cn/bscx.do?spm=a2v0d.13659821.0.0.6620b0d8MnPELd&method=lzxx&id=3301083301980000040550">
+          <img class="idinfo" src="https://img.alicdn.com/tfs/TB1rcIoq.Y1gK0jSZFCXXcwqXXa-65-70.png" alt=""></a>
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
+</html> 

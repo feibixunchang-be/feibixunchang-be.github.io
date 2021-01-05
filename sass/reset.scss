@@ -41,3 +41,290 @@ img{
 fieldset{
     border: 0;
 }
+
+//
+.content{
+    width: 1100px;
+    margin: 0 auto;  
+  }
+
+
+ // 网页最顶部
+#top{
+    width: 100%;
+    background: #000;
+    height: 31px;
+    border-bottom: 1px solid #ededee;
+    .topkl{
+      height: 30px;
+      .topkl_left{
+        float: left;
+        ul{
+          width: 280px;
+          display: flex;
+          justify-content: space-between;
+          li{
+            height: 30px;
+            line-height: 28px;
+            font-size: 12px;
+            color: #999999; 
+            position: relative;
+            a{
+              color: #999999;
+            }
+            div{
+              position: absolute;
+              width: 128px;
+              padding: 5px 5px 0 ;
+              border: 1px solid #ededee;
+              left: -44px;
+              top: 42px;
+              background: #ffffff;
+              display:none;
+              strong{
+                position: absolute;
+                border-bottom: 8px solid  #ffffff;
+                border-left: 7px solid  #f2f2f2;
+                border-right: 7px solid  #f2f2f2;
+                left: 60px;
+                top: -8px;
+              }
+              img{
+                width: 114px;
+                height: 114px;
+              }
+              p{
+                font-size: 14px;
+                color: #000000;
+                text-align: center;
+              }
+            }
+          }
+          li:hover a{
+            color: #ffffff;
+          }
+        }
+        ul>li:last-child:hover div{
+          display: block;
+        }
+      }
+      .topkl_right{
+        float: right;
+        ul{
+          height: 30px;
+          li{
+            height: 30px;
+            line-height: 28px;
+            font-size: 12px;
+            float: left;
+            padding-left: 16px;
+            padding-right: 23px;
+            border: 1px solid #000000;
+            position: relative;
+            // border: 1px solid #d2d2d2;
+            // background: #fff;
+            div{
+              display: none;
+              position: absolute;
+              left: -1px;
+              top: 29px;
+              background: #ffffff;
+              border-left: 1px solid #e7e8ea;
+              border-right: 1px solid #e7e8ea;
+              border-bottom: 2px solid #e7e8ea;
+              z-index: 10;
+              width: 120px;
+              padding: 4px 15px 12px 14px;
+              p{
+                line-height: 28px;
+              }
+              
+            }
+            .top_last_li{
+              width: 89px;
+              left: -24px;
+            }
+            .p_btm{
+              border-bottom: 1px solid #dddddd;
+            }
+            a{
+              color: #999999;
+            }
+            span{
+              position: absolute;
+              top: 12px;
+              border-top: 4px solid #999999;
+              border-left: 4px solid #000000;
+              border-right: 4px solid #000000;
+              transition: all 0.15s;
+            }
+          }
+          .topli:hover{
+            background:#ffffff;
+            border-left: 1px solid #d2d2d2;
+            border-right: 1px solid #d2d2d2;
+            border-top: 1px solid #d2d2d2;
+            border-bottom: 1px solid #ffffff;
+          }
+          li:hover a{
+            color: #ffffff;
+          }
+          li:hover div{
+            display: block;
+          }
+          .topli:hover a{
+            color: #ff1e32;
+          }
+          .topli:hover span{
+            border-top: 4px solid #ff1e32;
+            border-left: 4px solid #ffffff;
+            border-right: 4px solid #ffffff;
+          }
+          .topli:hover span{
+            transform:rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+  
+  
+ //页足
+#footer{
+    width: 100%;
+    .footer_top{
+      background: #ffffff;
+      height: 146px;
+      .content{
+        border-bottom: 1px solid #eaeaea;
+        height: 146px;
+        .footer_top_inner{
+          width: 275px;
+          height: 146px;
+          float: left;
+          padding-top: 50px;
+          padding-left: 42px;
+          cursor: default;
+          .footer_top_inner_left{
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            line-height: 44px;
+            height: 48px;
+            width: 48px;
+            border: 2px solid #d6d6d6; 
+            border-radius: 50%;
+            margin-right: 8px;
+            float: left;
+          }
+          .footer_top_inner_right{
+            float: left;
+            p{
+              line-height: 22px;
+              font-style: 18px;
+              font-weight: 900;
+            }
+            span{
+              line-height: 22px;
+              font-style: 14px;
+            }
+          }
+        }
+      }
+    }
+    .footer_content{
+      background: #ffffff;
+      height: 264px;
+      padding-top: 45px;
+      .footer_content_right{
+        float: left;
+        margin-right: 70px;
+        div{
+          i{
+            line-height: 32px;
+            font-style: 12px;
+          }
+        }
+        .kllogin{
+          height: 60px;
+          width: 210px;
+          background: url(../img/logo.png) no-repeat;
+          background-size: 210px 60px;
+          position: relative;
+          margin-bottom: 5px;
+          .blank{
+            position: absolute;
+            background: #ffffff;
+            width: 210px;
+            height: 20px;
+            left: 0;
+            bottom: 0;
+          }
+        }
+      }
+      ul{
+        float: left;
+        li{
+          float: left;
+          margin-right: 28px;
+          span{
+            display: block;
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 16px;
+          }
+          p{
+            a{
+              line-height: 28px;
+            }
+            a:hover{
+              text-decoration: underline;
+            }
+          }
+  
+        }
+      }
+      dl{
+        float: left;
+        dt{
+          margin-bottom: 10px;
+        }
+        dd{
+          text-align: center;
+        }
+      }
+    }
+    .footer_bottom{
+      background: #333333;
+      height: 152px;
+      padding-top: 20px;
+      p{
+        line-height: 26px;
+        margin: 0 auto;
+        text-align: center;
+        span{
+          color: #bababa;
+          margin-right: 26px;
+        }
+        a{
+          color: #bababa;
+          margin-right: 22px;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+        .knet{
+          width: 80px;
+          height: 30px;
+          border-radius: 5px;
+        }
+        .idinfo{
+          width: 28px;
+          height: 28px;
+        }
+        .m_r{
+          margin-right: 10px;
+        }
+      }
+    }
+  } 

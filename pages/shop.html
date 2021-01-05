@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>商品详情页</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/goods.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shop.css">  
 </head>
 <body>
-  <!-- 网页最顶部 -->
-  <div id="top">
+<!-- 网页最顶部 -->
+    <div id="top">
     <div class="topkl content">
       <div class="topkl_left">
         <ul>
@@ -80,127 +80,106 @@
         </ul>
       </div>
     </div>
-  </div>
-<!-- 页面主体 -->
-  <div id="main">
-    <div class="content">
+    </div>
+
+    <div id="shopCart" class="content">
       <h2>
-        <span>个人洗护</span><i>></i>
-        <select name="洗发护发" id="" >
-          <option value="">洗发护发</option>
-          <option value="">身体护理</option>
-          <option value="">口腔护理</option>
-          <option value="">女性护理</option>
-          <option value="">成人用品</option>
-          <option value="">宠物生活</option>
-        </select><i>></i>
-        <select name="洗发水" id="" >
-          <option value="">假发（旧）</option>
-          <option value="">护法精油</option>
-          <option value="">护发素</option>
-          <option value="">发膜</option>
-          <option value="">洗护发套装</option>
-          <option value="">染发剂/膏</option>
-          <option value="">其他头发护理</option>
-        </select><i>></i>
-        <select name="仁和" id="" >
-          <option value="">仁和</option>
-          <option value="">花王</option>
-          <option value="">吕</option>
-          <option value="">资生堂</option>
-          <option value="">爱敬</option>
-          <option value="">欧舒丹</option>
-          <option value="">卡诗</option>
-        </select><i>></i>
-        <span>买2送1</span>
-        <a href="">壹加零保健品专营店 进店看看></a>
+            <span>我的购物车</span><i>2</i>
+            <div>
+                <img src="//kaola-haitao.oss.kaolacdn.com/45441f34-6f10-45ee-8f33-11d9bc5dc4b8_16_16.png" alt="">
+                <span>考拉自营商品满88包邮，</span>
+                <i>再购13.00元包邮</i>
+                <a href="#">去凑单 ></a>
+                <span>配送至</span>
+                <select>
+                    <option value="">浙江/杭州市/上城区</option>
+                </select>
+            </div> 
+            
       </h2>
-      <div class="mainInner clearfix">
-        <div class="mainLeft">
-          <div class="middleImg">
-            <img src="https://kaola-pop.oss.kaolacdn.com/eef680768aa54f088bb7b0b116141ee7_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85" alt="">
+      <div class="shopTop">
+        <input type="checkbox">
+        <i>全选</i>
+        <span class="message">商品信息</span>
+        <span class="price">单价(元)</span>
+        <span class="numbers">数量</span>
+        <span class="money">金额(元)</span>
+        <span >操作</span>
+      </div>
+      <div class="carts">
+        <h3><input type="checkbox"> 自营保税仓</h3>
+        <div class="cartsTop">
+          <input type="checkbox" >
+          <img src="https://kaola-haitao.oss.kaolacdn.com/1duola5fq43_800_800.jpg?x-oss-process=image/resize,w_80/quality,q_85" alt="">
+          <div class="recommend">
+            <span>【2件装 3种可选】KUMANO </span>
+            <p>COSMETICS 熊野油脂 无硅弱酸性/二合一马油洗护装</p>
+            <img src="//kaola-haitao.oss.kaolacdn.com/testj43rji7610002.png" alt="">
+            <strong>支持30天无忧退货</strong>
           </div>
-          <div class="bigImg">
-            <img src="https://kaola-pop.oss.kaolacdn.com/eef680768aa54f088bb7b0b116141ee7_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85" alt="">
+          <span>颜色：无硅弱酸性...</span>
+          <strong>75</strong>
+          <div class="num">
+            <i>-</i><span>1</span><i>+</i>
           </div>
-          <ul class="samllImgBox">
-            <li>
-              <img src="https://kaola-pop.oss.kaolacdn.com/9f0a10ad99874701975fcf905193210b_800_800.jpg?x-oss-process=image/resize,w_64/quality,q_85" alt="">
-            </li>
-            <li>
-              <img src="https://kaola-pop.oss.kaolacdn.com/eef680768aa54f088bb7b0b116141ee7_800_800.jpg?x-oss-process=image/resize,w_64/quality,q_85" alt="">
-            </li>
-            
-            
-          </ul>
+          <strong class="RMB">75</strong>
+          <i class="del">删除</i>
         </div>
-        <div class="mainRight">
-          <div class="mainRightTop">
-            <img src="https://kaola-haitao.oss.kaolacdn.com/iczukrul93.JPG?x-oss-process=image/resize,w_48/quality,q_85" alt="">
-            <span>中国 | 仁和</span>
-          </div>
-          <h4>【买2送1同品 自然转黑 修复损伤】仁和何首乌植萃洗发水可搭配转变乌发黑发根去白头少白头老年人生姜洗发水育发液液生发育发健发固发用</h4>
-          <p>买2送1，买3送2，何首乌植萃洗发水</p>
-          <div class="minute">
-            <dt>售价</dt>
-            <dd>
-              <p>¥78.00<span>特价</span><span>包邮</span></p>
-              <div>
-                <strong>黑卡</strong><span>开通黑卡下单预计省¥11.4,可得290元红包</span>
-                <a href="#">立即开卡</a>
-              </div>
-            </dd>
-          </div>
-          <div class="freight">
-            <strong>运费</strong>
-            <span>无锡</span><i>至</i>
-            <select name="" id="" >
-              <option value="">广东/深圳市/龙华区</option>
-            </select>
-            <span>免运费</span>
-          </div>
-          <div class="serve clearfix">
-            <strong>服务</strong>    
-            <div>
-              <span>本商品由</span><i>壹加零保健品专营店</i><span>发货</span>
-              <p>付款后，48小时内发货</p>
-            </div>
-          </div>
-          <div class="num clearfix">
-            <strong>数量</strong>    
-            <div>
-              <i>-</i><span>1</span><i>+</i>
-            </div>
-          </div>
-          <div class="declare">
-            <strong>说明</strong>    
-            <div>
-              <span>正品保障</span>
-              <span>7天无理由退货</span>
-              <span>赠运费险</span>  
-            </div>
-          </div>
-          <div class="shopping">
-            <div class="buyNow">立即购买</div>
-            <div class="shoppingCart">加入购物车</div>
-            <a href="#">收藏</a>
+        <div class="cartBottom">
+          <div>
+            活动优惠：-￥<span>0</span> 商品应付总计：￥<strong>75</strong> 预估税费：￥<i>0</i>
           </div>
         </div>
       </div>
-
-
-
-
-
+      <div class="carts">
+        <h3><input type="checkbox"> 自营保税仓</h3>
+        <div class="cartsTop">
+          <input type="checkbox" >
+          <img src="https://kaola-haitao.oss.kaolacdn.com/1duola5fq43_800_800.jpg?x-oss-process=image/resize,w_80/quality,q_85" alt="">
+          <div class="recommend">
+            <span>【2件装 3种可选】KUMANO </span>
+            <p>COSMETICS 熊野油脂 无硅弱酸性/二合一马油洗护装</p>
+            <img src="//kaola-haitao.oss.kaolacdn.com/testj43rji7610002.png" alt="">
+            <strong>支持30天无忧退货</strong>
+          </div>
+          <span>颜色：无硅弱酸性...</span>
+          <strong>75</strong>
+          <div class="num">
+            <i>-</i><span>1</span><i>+</i>
+          </div>
+          <strong class="RMB">75</strong>
+          <i class="del">删除</i>
+        </div>
+        <div class="cartBottom">
+          <div>
+            活动优惠：-￥<span>0</span> 商品应付总计：￥<strong>75</strong> 预估税费：￥<i>0</i>
+          </div>
+        </div>
+      </div>
+      <div class="account">
+        <input type="checkbox" name="" id="">
+        <i>全选</i>
+        <span>删除选中商品</span>
+        <div class="accountBtn">
+          <div class="btnLeft">
+            <div class="btnLeftTop">
+              已选商品<i>2</i>件 <strong></strong> 总价(不含运费)：<span>¥153</span> 
+            </div>
+            <p>活动优惠：-￥<span>0</span> 商品应付总计：￥<strong>153</strong> 预估税费：￥<i>0</i>
+            </p>
+          </div>
+          <div class="btnRight">去结算</div>
+        </div>
+      </div>
     </div>
-    
-  </div>
 
 
 
 
 
-  <!-- 网页页足  -->
+
+
+<!-- 网页页足  -->
   <div id="footer">
     <div class="footer_top">
       <div class="content">
