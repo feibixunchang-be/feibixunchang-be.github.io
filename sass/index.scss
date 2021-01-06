@@ -147,18 +147,76 @@ body,html{
 #header{
   height: 100px;
   width: 100%;
-  
+  .SideBarHead{
+    height: 50px;
+    border-top: 1px solid #d2d2d2;
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    z-index: 1000;
+    display: none;
+    h3{
+      float: left;
+      a{
+        display: block;
+        margin-top: 4px;
+        
+      }
+    }
+    .searchSideBar{
+      float: left;
+      width: 510px;
+      height: 40px;
+      border: 2px solid #ff2337;
+      border-radius: 20px;
+      margin-top: 7px;
+      margin-left: 214px;
+      position: relative;
+      >span{
+        position: absolute;
+        right: 17px;
+        top: 8px;
+        font-size: 20px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      >.txt{
+        height: 36px;
+        width: 400px;
+        float: left;
+        border: 0;
+        margin-left: 30px;
+      }
+      >.sub{
+        float: right;
+        border: 0;
+        height: 36px;
+        width: 58px;
+        background: #ff2337;
+        border-radius: 18px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .sub:hover{
+        opacity: 0.8;
+      }
+    }
+  }
   .header_inner{
     padding: 20px 80px 15px 6px; 
   }
   .logo{
+    float: left;
+      width: 208px;
+      height: 65px;
+      margin-right: 134px;
     a{
       display: block;
       width: 208px;
       height: 65px;
       background:url(../img/logo.png) no-repeat;
       background-size: 208px 65px;
-      margin-right: 134px;
       float: left;
     }
     
@@ -170,6 +228,15 @@ body,html{
     border: 2px solid #ff2337;
     border-radius: 20px;
     margin-top: 14px;
+    position: relative;
+    >span{
+      position: absolute;
+      right: 17px;
+      top: 8px;
+      font-size: 20px;
+      color: #ffffff;
+      cursor: pointer;
+    }
     .txt{
       height: 36px;
       width: 400px;
@@ -185,6 +252,7 @@ body,html{
       background: #ff2337;
       border-radius: 18px;
       color: #ffffff;
+      cursor: pointer;
     }
     .sub:hover{
       opacity: 0.8;
@@ -193,6 +261,14 @@ body,html{
   .cart{
     float: right;
     margin-top: 14px;
+    position: relative;
+    .gouWuChe{
+      color: #ff2030;
+      position: absolute;
+      font-size: 20px;
+      left: 22px;
+      top: 8px;
+    }
     a{
       display: block;
       width: 110px;
@@ -203,8 +279,6 @@ body,html{
       border: 2px  solid #ff2337;
       border-radius: 20px;
     }
-    
-       
   }
   .cart:hover{
     background: #fff4f5;
@@ -218,11 +292,55 @@ body,html{
   width: 100%;
   height: 41px;
   border-bottom: 1px solid #cccccc;
+  .clear{
+    height: 40px;
+  }
   .nav_left{
     float: left;
     margin-left: 5px;
     margin-right: 24px;
-    div{
+    position: relative;
+    z-index: 80;
+    .pullDown{
+      display: none;
+      height: 468px;
+      width: 696px;
+      border: solid 1px #ff1a33;
+      position: absolute;
+      top: 40px;
+      left: 164px;
+      background: #ffffff;
+      padding: 0 15px;
+      .pullDownIn{
+        width: 332px;
+        height: 188px;
+        float: left;
+        h3{
+          height: 35px;
+          border-bottom: 1px solid #eaeaea;
+          line-height: 34px;
+          font-size: 14px;
+          text-indent: 5px;
+        }
+        ul{
+            padding-top: 8px;
+            padding-left: 6px;
+            width: 276px;
+            li{
+              float: left;
+              a{
+                line-height: 34px;
+                margin-right: 20px;
+              }
+            }
+            li:hover a{
+              color: #ff1e32;
+            }
+          }
+      }
+    }
+    .navTop{
+      position: relative;
       width: 164px;
       height: 41px;
       background: #ff0d1b;
@@ -232,13 +350,25 @@ body,html{
       text-align: center;
       border-bottom: 1px solid #ff5160;
     }
+    span{
+      position: absolute;
+      left: 24px;
+      top: 0;
+      font-size: 18px;
+      color: #ffffff;
+    }
+  }
+  .nav_left:hover .pullDown{
+    display: block;
   }
   .sidebar{
     width: 164px;
     padding: 0 7px 0 3px;
     background: #ff0d1b;
+    z-index: 100;
     li{
       padding: 0 7px 0 3px;
+      position: relative;
       a{
         display: block;
         width: 154px;
@@ -249,8 +379,25 @@ body,html{
         line-height: 38px;
         color: #ffffff;
       }
+      span{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 18px;
+        color: #ffffff;
+      }
       text-align: center;
       border-bottom: 1px solid #ff5160;
+    }
+    li:hover{
+      background: #ffffff;
+    }
+    li:hover a{
+      background: #ffffff;
+      color: #ff0d1b;
+    }
+    li:hover span{
+      color: #ff0d1b;
     }
   }
   .column{
@@ -281,7 +428,98 @@ body,html{
 #banner{
   width: 100%;
   height: 506px;
-  background: url(https://kaola-haitao.oss.kaolacdn.com/c7ddadbc-7cf1-437b-b997-0a3709af20e4T2012231431_1920_506.jpg?x-oss-process=image/resize,w_1920/quality,q_90) center no-repeat;
+  position: relative;
+  .swiper-container {
+    width: 100%;
+    height: 506px;
+    z-index: 20;
+    position: absolute;
+    //--swiper-theme-color: #9f92a6;/* 设置Swiper风格 */
+    --swiper-navigation-color: #cccccc;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+    // --swiper-navigation-background:#9f92a6;
+  } 
+  /* .swiperButton{
+    position: absolute;
+    height: 506px;
+  } */
+  .buttonPrev,.buttonNext{
+    height: 68px;
+    width: 34px;
+    background-color: rgba(0,0,0,.3);
+    z-index: 30;
+    border: 0;
+    font-size: 30px;
+    --swiper-theme-color: #cccccc;
+    outline: none;
+  }
+  .buttonPrev{
+    left: 174px;
+    top: -218px;
+  }
+  .buttonNext{
+    top: -218px;
+
+  }
+  .bannerInner{
+    width: 100%;
+    height: 506px;
+    z-index: 20;
+    position: absolute;
+  }
+  .InnerUrl1{
+    background: url(https://kaola-haitao.oss.kaolacdn.com/c7ddadbc-7cf1-437b-b997-0a3709af20e4T2012231431_1920_506.jpg?x-oss-process=image/resize,w_1920/quality,q_90) center no-repeat;
+  }
+  .InnerUrl2{
+    background: url(https://kaola-haitao.oss.kaolacdn.com/87e5a506-7c9b-455a-8895-226af97ab264T2009301808_1920_506.jpg?x-oss-process=image/resize,w_1920/quality,q_90) center no-repeat;
+  }
+  .InnerUrl3{
+    background: url(https://kaola-haitao.oss.kaolacdn.com/7ec84216-89c5-4828-afcd-5157dade0308T2007241654_1920_506.jpg?x-oss-process=image/resize,w_1920/quality,q_90) center no-repeat;
+  }
+    >.bannerpo{
+      // background: #8e060b;
+      background-color: rgba(0,0,0,.3);
+      width: 100%;
+      opacity: 0.9;
+      height: 38px;
+      position: absolute;
+      top: 468px;
+      z-index: 100;
+      ul{
+        height: 38px;
+        position: relative;
+        li{
+          float: left;
+          color: #ffffff;
+          margin-right: 40px;
+          i{
+            font-size: 22px;
+            margin-right: 8px;
+            color: #ffffff;
+            line-height: 38px;
+            float: left;
+          }
+          span{
+            line-height: 38px;
+            float: left;
+          }
+          a{
+            line-height: 38px;
+            float: left;
+            color: #ffffff;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+      ul>li:last-child{
+        float: right;
+        margin-right: 0;
+      }
+
+    }
+  
 }
 
 
@@ -325,6 +563,81 @@ body,html{
   padding-top: 20px;
   width: 100%;
   background: #f6f6f6;
+  .postion{
+    position: relative;
+    .SideBarLeft{
+      position: absolute;
+      // position: fixed;
+      top: 0;
+      left: -114px;
+      ul{
+        width: 100px;
+        border: 1px solid #ededed;
+        background: #ffffff;
+        .SideBarImg1{
+          width: 98px;
+          height: 50px;
+        }
+        span{
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          border-bottom: 1px solid #ededed;
+          border-top: 1px solid #ededed;
+          margin-bottom: 10px;
+        }
+        li{
+          height: 32px;
+          text-align: center;
+          line-height: 32px;
+          color: #999999;
+          cursor: pointer;
+        }
+        li:hover{
+          background: #f6f6f6;
+          color: #ff1e32;
+        }
+        span:hover{
+          background: #f6f6f6;
+          color: #ff1e32;
+        }
+      }
+    }
+    .SideBarRight{
+      position: absolute;
+      top: 0;
+      right: -80px;
+      ul{
+        width: 64px;
+        border: 1px solid #ededed;
+        background: #ffffff;
+        cursor: pointer;
+        li{
+          height: 61px;
+          border-bottom: solid 1px #ededed;
+          padding-top: 12px;
+          span{
+            font-size: 22px;
+            margin-left: 20px;
+            color: #a4a4a4;
+          }
+          p{
+            text-align: center;
+            line-height: 18px;
+          }
+        }
+        li:hover span,li:hover p{
+          color: #ff1e32;
+        }
+      }
+      ul>li:last-child{
+        border: 0;
+      }
+
+    }
+  }
+  
   .main_top{
     a{
       display: block;
@@ -469,11 +782,12 @@ body,html{
       background: #ffffff;
       border-top: 1px solid #eaeaea;
       border-left: 1px solid #eaeaea;
+      border-right: 1px solid #eaeaea;
+
       overflow: hidden;
       h2{
         height: 49px;
         border-bottom: 1px solid #eaeaea;
-        border-right: 1px solid #eaeaea;
         line-height: 48px;
         text-indent: 20px;
         font-size: 16px;
@@ -482,10 +796,23 @@ body,html{
         height: 168px;
         width: 1100px;
         a{
+          position: relative;
           float: left;
           width: 220px;
           height: 168px;
+          border-bottom: 1px solid #eaeaea;
+          border-right: 1px solid #eaeaea;
           background: url(https://kaola-haitao.oss.kaolacdn.com/ii02po4970_300_300.jpg?x-oss-process=image/resize,w_120/quality,q_95) center no-repeat;
+          span{
+            position: absolute;
+            top: 18px;
+            right: 12px;
+            color: #ff3443;
+            display: none;
+          }
+        }
+        a:hover span{
+          display: block;
         }
       }
     }
@@ -581,14 +908,6 @@ body,html{
     }
   }
 }
-
-
-
-
-
-
-
-
 
 
 //页足
