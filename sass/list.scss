@@ -1,8 +1,18 @@
+#nav {
+  .sidebar{
+  display: none;
+  }
+  .nav_left:hover .pullDown{
+    display: none;
+  }
+}
+
+
 #sidebar{
   width: 100%;
   background: #f3f3f3;
   h2{
-    margin: 10px 0;
+    padding: 10px 0;
     line-height: 22px;
     span{
       margin-right: 10px;

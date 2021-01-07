@@ -1,0 +1,255 @@
+#nav .sidebar {
+  display: none; }
+
+#nav .nav_left:hover .pullDown {
+  display: none; }
+
+#main h2 {
+  width: 100%;
+  height: 62px;
+  line-height: 60px;
+  border-bottom: 1px solid #dddddd; }
+  #main h2 span {
+    color: #999999; }
+  #main h2 i {
+    color: #999999;
+    margin: 0 4px; }
+  #main h2 select {
+    border: 1px solid #cccccc; }
+  #main h2 a {
+    float: right;
+    color: #666666; }
+
+#main .mainInner {
+  margin-top: 38px; }
+
+#main .mainLeft {
+  position: relative;
+  width: 402px;
+  float: left;
+  margin-right: 30px; }
+  #main .mainLeft .middleImg {
+    border: 1px solid #eeeeee;
+    width: 402px;
+    height: 402px;
+    margin-bottom: 16px;
+    position: relative;
+    cursor: move; }
+    #main .mainLeft .middleImg img {
+      width: 400px;
+      height: 400px; }
+    #main .mainLeft .middleImg .mask {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: #a8abae;
+      opacity: 0.5;
+      display: none; }
+  #main .mainLeft .bigImg {
+    position: absolute;
+    left: 430px;
+    top: 0;
+    width: 402px;
+    height: 402px;
+    overflow: hidden;
+    border: 1px solid #eeeeee;
+    display: none; }
+    #main .mainLeft .bigImg img {
+      width: 800px;
+      height: 800px;
+      position: absolute;
+      left: 0;
+      right: 0; }
+  #main .mainLeft .samllImgBox {
+    height: 70px;
+    width: 330px;
+    margin: 0 auto; }
+    #main .mainLeft .samllImgBox li {
+      float: left;
+      height: 70px;
+      width: 70px;
+      border: 3px solid #eeeeee;
+      margin-right: 10px; }
+      #main .mainLeft .samllImgBox li img {
+        width: 64px;
+        height: 64px; }
+    #main .mainLeft .samllImgBox .samllImg {
+      border: 3px solid #e31436; }
+
+#main .mainRight {
+  float: left;
+  width: 668px; }
+  #main .mainRight .mainRightTop {
+    margin-bottom: 10px;
+    height: 24px; }
+    #main .mainRight .mainRightTop img {
+      height: 24px;
+      width: 24px;
+      margin-right: 6px; }
+    #main .mainRight .mainRightTop span {
+      line-height: 24px;
+      color: #999999; }
+  #main .mainRight h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px; }
+  #main .mainRight > p {
+    line-height: 28px;
+    margin-bottom: 8px; }
+  #main .mainRight .minute {
+    width: 668px;
+    height: 100px;
+    border-bottom: 1px dashed #dddddd;
+    border-top: 1px dashed #dddddd;
+    background: #f9f9f9;
+    padding-top: 16px; }
+    #main .mainRight .minute dt {
+      line-height: 20px;
+      text-indent: 10px;
+      width: 85px;
+      height: 82px;
+      float: left;
+      color: #666666; }
+    #main .mainRight .minute dd {
+      float: left;
+      height: 82px;
+      width: 583px; }
+      #main .mainRight .minute dd > p {
+        font-size: 20px;
+        height: 20px;
+        color: #e31436;
+        line-height: 20px;
+        margin-bottom: 12px; }
+        #main .mainRight .minute dd > p span {
+          display: inline-block;
+          width: 34px;
+          height: 18px;
+          font-size: 12px;
+          color: #ffffff;
+          background: #f68587;
+          text-align: center;
+          margin: 0 6px; }
+      #main .mainRight .minute dd > div strong {
+        display: block;
+        width: 45px;
+        height: 18px;
+        border-radius: 7px;
+        background: #382f0f;
+        line-height: 18px;
+        text-align: center;
+        color: #ffffff;
+        float: left;
+        margin-right: 4px; }
+      #main .mainRight .minute dd > div span {
+        line-height: 20px; }
+      #main .mainRight .minute dd > div a {
+        display: block;
+        line-height: 20px;
+        text-indent: 60px;
+        color: #4a90e2; }
+  #main .mainRight .freight {
+    line-height: 20px;
+    margin-top: 14px;
+    margin-bottom: 12px; }
+    #main .mainRight .freight strong {
+      line-height: 20px;
+      text-indent: 10px;
+      width: 80px;
+      display: inline-block;
+      color: #666666; }
+    #main .mainRight .freight i {
+      margin-left: 20px;
+      margin-right: 14px; }
+    #main .mainRight .freight select {
+      margin-right: 24px; }
+  #main .mainRight .serve > div {
+    float: left; }
+  #main .mainRight .serve strong {
+    float: left;
+    line-height: 12px;
+    text-indent: 10px;
+    width: 80px;
+    height: 50px;
+    color: #666666; }
+  #main .mainRight .serve i {
+    margin-right: 10px;
+    margin-left: 6px;
+    color: #e31436; }
+  #main .mainRight .serve P {
+    line-height: 24px; }
+  #main .mainRight .num strong {
+    line-height: 20px;
+    text-indent: 10px;
+    width: 80px;
+    float: left; }
+  #main .mainRight .num > div {
+    height: 24px;
+    width: 102px;
+    border: 1px solid #cccccc;
+    float: left; }
+    #main .mainRight .num > div i {
+      float: left;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      cursor: pointer; }
+    #main .mainRight .num > div span {
+      width: 54px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      float: left;
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid #cccccc; }
+  #main .mainRight .declare {
+    margin-bottom: 8px;
+    height: 40px; }
+    #main .mainRight .declare strong {
+      line-height: 40px;
+      text-indent: 10px;
+      width: 80px;
+      float: left; }
+    #main .mainRight .declare > div {
+      float: left;
+      line-height: 40px;
+      margin-right: 10px; }
+  #main .mainRight > .shopping {
+    height: 50px; }
+    #main .mainRight > .shopping .buyNow {
+      width: 160px;
+      height: 50px;
+      border: solid 2px #d41c44;
+      color: #d31b44;
+      background: #ffeced;
+      line-height: 46px;
+      text-align: center;
+      float: left;
+      margin-right: 24px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700; }
+    #main .mainRight > .shopping .buyNow:hover {
+      background: #fffaf8; }
+    #main .mainRight > .shopping .shoppingCart {
+      width: 180px;
+      height: 50px;
+      border: solid 2px #e31436;
+      color: #ffffff;
+      background: #e31436;
+      line-height: 46px;
+      text-align: center;
+      float: left;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700;
+      margin-right: 34px; }
+    #main .mainRight > .shopping .shoppingCart:hover {
+      background: #f5345e; }
+    #main .mainRight > .shopping a {
+      line-height: 50px;
+      font-size: 14px; }
+    #main .mainRight > .shopping a:hover {
+      text-decoration: underline; }
