@@ -111,6 +111,8 @@
     overflow: hidden; }
     #sidebar #main .mainBig {
       width: 1120px; }
+      #sidebar #main .mainBig .LIsta {
+        margin: 0; }
     #sidebar #main .main_inner {
       width: 262px;
       height: 460px;

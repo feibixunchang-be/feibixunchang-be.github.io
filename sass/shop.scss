@@ -1,3 +1,14 @@
+
+h1{
+  font-size: 30px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 500px;
+  text-align: center;
+  display: none;
+}
+
+
 #shopCart{
   margin-top: 10px;
   h2{
@@ -70,111 +81,115 @@
       margin-right: 80px;
     }
   }
-  
-  .carts{
-    height: 200px;
-    margin-bottom: 14px;
-    h3{
-      height: 38px;
-      line-height: 38px;
-      font-size: 14px;
-      font-weight: 600;
-      >input{
-        float: left;
-        margin-left: 22px;
-        margin-right: 12px;
-        margin-top: 13px;
-      }
-    }
-    .cartsTop{
-      height: 122px; 
-      border: 1px solid #eaeaea;
-      background: #fffbf0;
-      padding-top: 20px;
-      >input{
-        float: left;
-        margin-left: 22px;
-        margin-right: 12px;
-        margin-top: 34px;
-      }
-      >img{
-        float: left;
-        width: 80px;
-        height: 80px;
-        margin-right: 15px;
-      }
-      .recommend{
-        width: 214px;
-        height: 100px;
-        float: left;
-        overflow: hidden;
-        margin-right: 36px;
-        p{
-          line-height: 24px;
-          width: 250px;
-          margin-bottom: 4px;
-        }
-        img{
-          margin-right: 2px;
-        }
-        strong{
-          color: #666666;
-        }
-      }
-      >span{
-        float: left;
-        color: #999999;
-        margin-right: 80px;
-      }
-      >strong{
-        margin-right: 100px;
-        float: left;
-        line-height: 20px; 
+  .shopInner{
+    width: 100%;
+    .carts{
+      height: 200px;
+      margin-bottom: 14px;
+      h3{
+        height: 38px;
+        line-height: 38px;
+        font-size: 14px;
         font-weight: 600;
-      }
-      .num{
-        height: 22px;
-        width: 88px;
-        border: 1px solid #cccccc;
-        float: left;
-        margin-right: 106px;
-        background: #ffffff;
-        i{
+        >input{
           float: left;
-          width: 20px;
-          height: 20px;
+          margin-left: 22px;
+          margin-right: 12px;
+          margin-top: 13px;
+        }
+      }
+      .cartsTop{
+        height: 122px; 
+        border: 1px solid #eaeaea;
+        background: #fffbf0;
+        padding-top: 20px;
+        >input{
+          float: left;
+          margin-left: 22px;
+          margin-right: 12px;
+          margin-top: 34px;
+        }
+        >img{
+          float: left;
+          width: 80px;
+          height: 80px;
+          margin-right: 15px;
+        }
+        .recommend{
+          width: 214px;
+          height: 100px;
+          float: left;
+          overflow: hidden;
+          margin-right: 36px;
+          p{
+            line-height: 24px;
+            width: 250px;
+            margin-bottom: 4px;
+          }
+          img{
+            margin-right: 2px;
+          }
+          strong{
+            color: #666666;
+          }
+        }
+        >span{
+          float: left;
+          color: #999999;
+          margin-right: 80px;
+          width: 100px;
+        }
+        >strong{
+          margin-right: 90px;
+          float: left;
+          line-height: 20px; 
+          font-weight: 600;
+        }
+        .num{
+          height: 22px;
+          width: 88px;
+          border: 1px solid #cccccc;
+          float: left;
+          margin-right: 106px;
+          background: #ffffff;
+          i{
+            float: left;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            cursor: pointer;
+          }
+          span{
+            width: 44px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            float: left;
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+          }
+        }
+        .del{
+          float: left;
           line-height: 20px;
-          text-align: center;
           cursor: pointer;
         }
-        span{
-          width: 44px;
-          height: 20px;
-          line-height: 20px;
-          text-align: center;
-          float: left;
-          border-left: 1px solid #cccccc;
-          border-right: 1px solid #cccccc;
-        }
       }
-      .del{
-        float: left;
-        line-height: 20px;
-      }
-    }
-    .cartBottom{
-      height: 40px;
-      border: 1px solid #eaeaea;
-      border-top:0;
-      >div{
-        float: right;
-        width: 362px;
-        line-height: 40px;
-        span{
-          margin-right: 24px;
-        }
-        strong{
-          margin-right: 24px;
+      .cartBottom{
+        height: 40px;
+        border: 1px solid #eaeaea;
+        border-top:0;
+        >div{
+          float: right;
+          width: 362px;
+          line-height: 40px;
+          span{
+            margin-right: 24px;
+          }
+          strong{
+            margin-right: 24px;
+          }
         }
       }
     }
