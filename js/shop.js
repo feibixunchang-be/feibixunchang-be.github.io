@@ -60,7 +60,7 @@ $(function(){
             var list = localStorage.getItem('cart')||"[]"; //字符串
             return JSON.parse(list);
         }
-        $('.del').click(function() {
+        // $('.del').click(function() {
             $(this).parent().parent().remove();
             var index = $(this).parent().parent().index();
             var arr = JSON.parse(localStorage.cart);
@@ -73,7 +73,7 @@ $(function(){
                 $('h1').show();
                 return;
             }
-        })
+        // })
 
     })
 })

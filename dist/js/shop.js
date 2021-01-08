@@ -39,21 +39,21 @@ $(function () {
       var list = localStorage.getItem('cart') || "[]"; //字符串
 
       return JSON.parse(list);
-    }
+    } // $('.del').click(function() {
 
-    $('.del').click(function () {
-      $(this).parent().parent().remove();
-      var index = $(this).parent().parent().index();
-      var arr = JSON.parse(localStorage.cart);
-      arr.splice(index, 1);
-      localStorage.cart = JSON.stringify(arr);
-      var productList = getCart();
 
-      if (productList.length < 1) {
-        $('#shopCart').hide();
-        $('h1').show();
-        return;
-      }
-    });
+    $(this).parent().parent().remove();
+    var index = $(this).parent().parent().index();
+    var arr = JSON.parse(localStorage.cart);
+    arr.splice(index, 1);
+    localStorage.cart = JSON.stringify(arr);
+    var productList = getCart();
+
+    if (productList.length < 1) {
+      $('#shopCart').hide();
+      $('h1').show();
+      return;
+    } // })
+
   });
 });
