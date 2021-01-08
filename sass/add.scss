@@ -1,0 +1,90 @@
+#log{
+    width: 386px;
+    background: #ffffff;
+    border: solid 1px #f5f3ef;
+    position: relative;
+    left: 50%;
+    margin-left: -193px;
+    top: 114px;
+    .log_inner{
+        padding: 30px 43px 0;
+    
+    h2{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        line-height: 20px;
+        height: 20px;
+        margin-bottom: 18px;
+        .h2span{
+            cursor: pointer;
+        }
+        .h2center{
+            color: #dddddd;
+        }
+        span{
+            font-size: 18px;
+            color: #c5c5c5;
+        }
+    }
+    .switch{
+        height: 26px;
+        margin-bottom: 6px; 
+        a{
+        float: right;
+        color: #666666;
+        line-height: 26px;
+        font-size: 12px;
+        } 
+        a:hover{
+            color: #b4a078;
+        }
+    }
+    .entry{
+        width: 300px;
+        .int{
+            width: 300px;
+            height: 38px;
+            border: solid 1px  #e8e8e8;
+            margin-bottom: 15px;
+            padding: 7px 0 5px 0;
+            color: #333333;
+            line-height: 24px;
+            text-indent: 8px;
+        }
+        ::placeholder{
+            color: #999999;
+        }
+        input.error{
+            border-color: red;
+        }
+        label.error{
+            color: red;
+        }
+    }
+    .log{
+        margin-top: 20px;
+        width: 300px;
+        height: 48px;
+        color: #ffffff;
+        background: #999999;
+        line-height: 48px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 62px;
+        border: 0;
+    }
+}
+    .foot{
+        height: 60px;
+        background: #f5f3ef;
+        padding: 8px 32px 0 38px;
+        a{
+            float: right;
+            line-height: 52px;
+            color: #999999;
+
+        }
+    }
+}
